@@ -1,46 +1,44 @@
 <div align="center">
 
-# Vib Tools — Open Source Hub
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/vibtools-horizontal-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/vibtools-horizontal-light.png">
+  <img src="./assets/vibtools-horizontal-light.png" alt="Vib Tools" width="420">
+</picture>
 
-**Free and open-source developer tools, desktop applications, self-hosted software, and automation frameworks.**
+### Practical software. Open engineering.
 
-Built for developers who value clean architecture, minimal overhead, and full ownership—always free, transparent, and without platform lock-in.
+Developer tools, self-hosted infrastructure, and automation software built for real-world workflows.
 
-[![Website](https://img.shields.io/badge/Website-vibtools.io-0d1117?style=flat-square&logo=googlechrome&logoColor=1d6cf6)](https://vibtools.io)
-[![Documentation](https://img.shields.io/badge/Docs-docs.vib.tools-0d1117?style=flat-square&logo=readthedocs&logoColor=1d6cf6)](https://docs.vib.tools)
-[![Repositories](https://img.shields.io/badge/Explore-Repositories-0d1117?style=flat-square&logo=github&logoColor=1d6cf6)](https://github.com/orgs/vibtoolshq/repositories)
-[![License](https://img.shields.io/badge/License-MIT-0d1117?style=flat-square&logo=opensourceinitiative&logoColor=1d6cf6)](https://opensource.org/licenses/MIT)
-[![Contact](https://img.shields.io/badge/Contact-hello%40vibtools.io-0d1117?style=flat-square&logo=maildotru&logoColor=1d6cf6)](mailto:hello@vibtools.io)
+[Website](https://vib.tools) · [Documentation](https://docs.vib.tools) · [Explore projects](https://github.com/orgs/vibtoolshq/repositories) · [Contact](https://vib.tools/contact)
 
 </div>
 
 ---
 
-### About Vib Tools Open Source
+### About Vib Tools
 
-**Vib Tools** (`vibtoolshq`) is an independent open-source software organization dedicated to building practical, lightweight, and reusable developer utilities. Every repository published under this organization is **100% free and open source**—designed to solve focused engineering problems without bloat, tracking, or proprietary restrictions.
+**Vib Tools** builds focused, reusable software for developers and teams. We value clear documentation, maintainable engineering, and the freedom to run tools in your own environment.
 
-- **Always Free & Permissive:** Released under open-source licenses like MIT so developers can inspect, fork, modify, and self-host freely.
-- **Zero Bloat & High Performance:** Engineered with minimal dependencies, compact footprints, and predictable runtime behavior.
-- **Self-Hosted & Local-First:** Built to run cleanly on your own Linux servers, edge infrastructure, or local workstation.
+### Featured developer projects
 
----
+- **[DocScaffold](https://github.com/vibtoolshq/docscaffold)** — Configuration-driven documentation portal for multiple Git repositories, built with Astro and MDX.
+- **[KronOTP](https://github.com/vibtoolshq/KronOTP)** — JavaScript and Python TOTP libraries for two-factor authentication integrations.
+- **[UpdatePilot](https://github.com/vibtoolshq/UpdatePilot)** — Self-hosted update orchestration with Docker health checks and rollback support; early development.
+- **[SocketCore](https://github.com/vibtoolshq/SocketCore)** — Node.js WebSocket engine for authenticated connections, message routing, and lifecycle management.
 
-### What We Build
+### Platforms & infrastructure
 
-| Engineering Domain | Focus & Capabilities |
-| :--- | :--- |
-| **Developer Tooling & Scaffolding** | Standardized project templates, documentation generators, CLI utilities, and schema-driven configurations. |
-| **Self-Hosted Infrastructure** | Lightweight mail stacks, deployment engines, containerized services, and server administration tools. |
-| **Desktop & Cross-Platform Apps** | Fast, native-feeling desktop utilities built with modern Python GUI frameworks and compiled runtimes. |
-| **Browser & Web Automation** | Open-source browser extensions, headless automation cores, and workflow productivity tools. |
+- **[LicenX](https://github.com/vibtoolshq/LicenX)** — Self-hosted licensing, device authorization, admin APIs, and Python SDK integration.
+- **[ReadBox](https://github.com/vibtoolshq/ReadBox)** — Self-hosted email workspace with mail ingestion and server administration tooling.
+- **[VPS-MCP](https://github.com/vibtoolshq/VPS-MCP)** — Permission-scoped VPS control panel and MCP server integration tooling.
 
----
+Project maturity and deployment requirements vary. See each repository's README, release notes, and security guidance before using it in production.
 
-### Core Technology Ecosystem
+### Contribute & connect
 
-```text
-Languages      : Python • TypeScript • JavaScript • Bash • SQL
-Frontend & UI  : React • Next.js • Tailwind CSS • Vanilla JavaScript
-Desktop & CLI  : PySide6 • CustomTkinter • Playwright • Nuitka
-Infrastructure : Ubuntu Linux • Docker • Cloudflare Workers / Pages / D1 / R2
+Explore the [repositories](https://github.com/orgs/vibtoolshq/repositories) to find issues, source code, and project-specific contribution guides. For security reports, follow the policy in the relevant repository.
+
+**[Website](https://vib.tools)** · **[Docs](https://docs.vib.tools)** · **[Contact](https://vib.tools/contact)**
+
+<sub>© 2026 Vib Tools. See each repository for its own license and terms.</sub>
